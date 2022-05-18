@@ -1,0 +1,158 @@
+@import url('reset.css');
+@import url('global.css');
+@import url('components/_navigator.css');
+
+
+.s-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+    
+}
+
+.s-wrapper .s-left-column{
+    width: 100px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-wrapper .s-main-content{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    padding-left: 30px;
+    background-image: url(../../assets/images/spiderman-tom/movie-01/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: 100%;
+    overflow: hidden;
+    
+
+}
+
+.s-wrapper .s-main-content .s-tittle {
+    position: absolute;
+    width: 800px;
+    height: 66px;
+    left: 195px;
+    top: 52px;
+}
+
+.s-wrapper .s-main-content .s-myButton1{
+    background-color:#f51111;
+	border-radius:40px;
+	border:3px solid #ff0d0d;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding: 8px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-top: 150px;
+    z-index: 1;
+    position: absolute;
+    cursor: auto;
+    
+
+}
+
+.s-wrapper .s-main-content .s-myButton1:hover{
+    background-color:#000000;
+}
+
+.s-wrapper .s-main-content .s-myButton2{
+    background-color:#f51111;
+	border-radius:40px;
+	border:3px solid #ff0d0d;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding: 8px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-top: 150px;
+    margin-left: 110px;
+    z-index: 1;
+    position: absolute;
+    cursor: auto;
+    
+
+}
+
+.s-wrapper .s-main-content .s-myButton2:hover{
+    background-color:#000000;
+}
+
+.s-wrapper .s-main-content .s-trailler-area .s-button-trailler {
+    
+    background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+    background-color:#000000;
+    border-radius:28px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#fc0505;
+    font-family:Arial;
+    font-size:19px;
+    font-weight:bold;
+    padding:16px 60px;
+    text-decoration:none;
+    margin-top: 349px;
+    margin-left: -7px;
+    z-index: 1;
+}
+
+.s-wrapper .s-main-content .s-trailler-area .s-button_trailler:hover {
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+}
+.s-wrapper .s-main-content .s-trailler-area .s-button_trailler:active {
+	position:relative;
+	top:1px;
+}
+
+.s-wrapper .s-main-content .s-retangle{
+position: absolute;
+width: 600px;
+height: 190px;
+left: 120px;
+top: 140px;
+z-index: 0;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.8);
+
+z-index: 0;
+}
+
+.s-wrapper .s-main-content .s-resume{
+    margin-top: 200px;
+    position: absolute;
+    font-size: 12px;
+    width: 570px;
+    height: 100px;
+}
+
+.s-wrapper .s-main-content .s-trailler-area .s-youtube-logo {
+    position: absolute;
+    bottom: 262px;
+    left: 130px;
+}
+
+
+
+
+.s-wrapper .s-main-content .s-galeria img {
+    border: 3px solid white;
+    border-radius: 18px;
+    padding: 0 0px;
+    display: inline-block;
+    margin: 30px;
+    margin-top: 35px;
+    margin-left: -10px;
+    
+} 
